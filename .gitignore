@@ -1,8 +1,15 @@
 # Ignore local README.txt
 README.txt
-# Ingnore local output 
+
+# Ingnore local output and tmpfile 
 output/
+tmp/
+
 # Ignore .vagrant
 .vagrant
-tmp
+*.zip
 
+# Ignore Mac OS file
+.DS_Store
+
+#.env.local
