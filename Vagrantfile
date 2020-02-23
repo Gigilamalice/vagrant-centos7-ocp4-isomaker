@@ -35,6 +35,10 @@ yum install ansible -y
 # cd openshift-origin-client-tools*
 # cp oc  /usr/local/sbin
 
+## Podman
+sysctl user.max_user_namespaces=15000
+yum install podman -y
+
 SCRIPT
 
 $deployuservagrantscript = <<-SCRIPT
@@ -46,6 +50,9 @@ echo
 echo ================================================================================
 echo .
 echo .
+
+
+
 git clone https://github.com/chuckersjp/coreos-iso-maker.git
 cd coreos-iso-maker
 cat << EOF >  group_vars/all.yml
