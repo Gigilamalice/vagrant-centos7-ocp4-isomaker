@@ -1,0 +1,8 @@
+# Ignore local README.txt
+README.txt
+# Ingnore local output 
+output/
+# Ignore .vagrant
+.vagrant
+tmp
+
