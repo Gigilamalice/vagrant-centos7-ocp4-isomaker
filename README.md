@@ -1,4 +1,4 @@
-# vagrant-centos7-isomaker
+# vagrant-centos7-OCP4-isomaker
 
 Create a vagrant box CENTOS/7 to run isomaker for OCP4 static IP 
 
@@ -31,6 +31,13 @@ Refresh your head (local repo)
 git pull
 ```
 
+## Shell tool
+
+```shell
+yum install zsh -y
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+zsh
+```
 
 
 ## Vagrant tool
