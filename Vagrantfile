@@ -28,6 +28,10 @@ yum install epel-release -y
 yum install ansible -y
 # yum -y install python-pip
 
+## Graph OCP4
+# yum -y install jq
+# yum -y install graphviz
+
 ## Download openshift client oc
 # cd /tmp
 # wget $1 -o wget.log
