@@ -1,4 +1,4 @@
-# vagrant-centos7-oc
+# vagrant-centos7-isomaker
 
 Create a vagrant box CENTOS/7 to run isomaker for OCP4 static IP 
 
